@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Puzzle Game</title>
+    <style type="text/css">body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #faf8ef;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      .game-container {
+        text-align: center;
+        background: #bbada0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .game-board {
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(4, 100px);
+        gap: 10px;
+        margin: 20px auto;
+        width: max-content;
+      }
+      
+      .tile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background-color: #cdc1b4;
+        border-radius: 5px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      
+      .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #8f7a66;
+        color: white;
+      }</style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>2048 Puzzle Game</h1>
+        <div id="game-board" class="game-board"></div>
+        <div class="controls">
+            <button id="new-game">New Game</button>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+    <script src="C:\Users\rupam pandey\Downloads\script.js" ></script>
+    
+</body>
+</html>
